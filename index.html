@@ -20,18 +20,18 @@
       </div>
       <div class="content">
         <div class="buttons">
-          <button type="button">Wash Car: £10</button>
-          <button type="button">Mow Grass: £20</button>
-          <button type="button">Pull Weeds: £30</button>
+          <button type="button" id="wash-btn">Wash Car: £10</button>
+          <button type="button" id="mow-btn">Mow Grass: £20</button>
+          <button type="button" id="weeds-btn">Pull Weeds: £30</button>
         </div>
         <div class="task-container">
           <div class="task-list">
             <p>TASK</p>
-            <div class="wash">Wash Car</div>
+            <div id="task-name" class="wash"></div>
           </div>
           <div class="invoice-item">
             <p>TOTAL</p>
-            <div class="invoice-figure">£10</div>
+            <div id="invoice-figure" class="invoice-figure"></div>
           </div>
         </div>
         <hr />
@@ -42,11 +42,11 @@
           </div>
           <div class="invoice-total">
             <p>TOTAL AMOUNT</p>
-            <div class="invoice-total-num">£60</div>
+            <div id="invoice-total-num" class="invoice-total-num"></div>
           </div>
         </div>
         <div>
-          <button class="invoice-btn">✉️ Send Invoice</button>
+          <button id="invoice-btn" class="invoice-btn">✉️ Send Invoice</button>
         </div>
       </div>
     </div>
